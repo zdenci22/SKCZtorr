@@ -8,7 +8,8 @@ const builder = new addonBuilder({
     description: "Massive torrent streams",
     resources: ["stream"],
     types: ["movie", "series"],
-    idPrefixes: ["tt"]
+    idPrefixes: ["tt"],
+    catalogs: []
 });
 
 const CZ_PATTERNS = [
